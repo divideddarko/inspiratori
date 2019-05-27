@@ -1,0 +1,13 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="page.master.cs" Inherits="pageHeader" %>
+
+<!DOCTYPE html>
+<html>
+    <head runat="server">
+        <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+        <link rel="Stylesheet" type="text/css" href="../style/default.css" />
+    </head>
+    <body>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </body>
+</html>
